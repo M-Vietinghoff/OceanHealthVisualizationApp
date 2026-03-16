@@ -5,7 +5,7 @@ library(ggplot2)
 ocean_health <- data.frame(
   Location = c("Great Barrier Reef", "Caribbean", "Red Sea", "Solomon Sea", "Hawaii", "Philippine Sea"),
   
-  ## % of coral bleached
+  # % of coral bleached
   Coral_Bleaching = c(30, 45, 20, 50, 25, 40),
   
   # pH level
